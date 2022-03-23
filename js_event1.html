@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>event_mouse</title>
+  <!-- <script src="js/js_autoGallery2.js" defer></script> -->
+  <!-- <script src="js/js_event1.js" defer></script> -->
+  <script src="js/js_mouse_event.js" defer></script>
+  <link rel="stylesheet" href="css/common/reset.css">
+  <style>
+    /* .event-con{
+      height: 200vh;
+    } */
+    .gnb{
+      width: 300px;
+      height: auto;
+      margin: 0 auto;
+    }
+    .gnb>ul{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .gnb>ul>li{
+      flex: 1;
+      /* border: 1px solid; */
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .gnb>ul>li>a{
+      display: block;
+      border: 1px solid;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    ul.sub{
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="event-con">
+    <div class="btn-con">
+      <button id="btn1">BUTTON1</button>
+      <button class="btn2">BUTTON2</button>
+      <button class="btn2">BUTTON3</button>
+      <button class="btn2">BUTTON4</button>
+      <button>BUTTON5</button>
+    </div>
+    <div class="sub-con"></div>
+  </div>
+  <div class="gnb">
+    <ul>
+      <li>
+        <a href="#">menu</a>
+        <ul class="sub">
+          <li><a href="#">SUB</a></li>
+          <li><a href="#">SUB</a></li>
+          <li><a href="#">SUB</a></li>
+          <li><a href="#">SUB</a></li>
+        </ul>
+      </li>
+      <li><a href="#">menu</a></li>
+      <li><a href="#">menu</a></li>
+      <li><a href="#">menu</a></li>
+      <li><a href="#">menu</a></li>
+    </ul>
+  </div>
+</body>
+</html>
